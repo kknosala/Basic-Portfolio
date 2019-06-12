@@ -63,32 +63,39 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
+    position: absolute;
+    right: 0;
+    width: 244px;
 }
 
 .navbutton {
-    float: right;
+    float: left;
 }
 
 .navbutton a {
     text-align: center;
-    padding: 15px;
+    display: inline-block;
+    width: 5em; 
     text-decoration: none;
     color: #666666;
 }
 
 .navbutton a:hover {
     color: teal;
-    font-size: 120%;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
 }
 
 .navline {
     width: 0px;
     height: 20px;
-    float: right;
+    float: left;
     border-left: 1px solid #B0B0B0;
     position: relative;
     bottom: 10px;
 }
+
 .container {
     max-width: 960px;
     margin: auto;
