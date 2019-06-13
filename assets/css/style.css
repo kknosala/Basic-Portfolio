@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url(../images/beige-tiles.png);
     background-color: #97DEFF;
+    color: #777777;
 }
 
 header {
@@ -147,14 +148,28 @@ h1 {
     font-size: 14px;
 }
 
-.contactcontainer {
-    margin: 10px 15px 10px 15px;
-    overflow: hidden;
+.contactlabel {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.input {
+    box-sizing: content-box;
+    border: 2px solid #888888;
+    width: 898px;
+    padding: 12px;
+    height: 24px;
+    font-size: 16px;
 }
 
-.input {
-    position: relative;
-    width: 100%;
+.inputmessage {
+    box-sizing: content-box;
+    border-radius: 4px;
+    border: 2px solid #888888;
+    padding: 12px;
+    width: 898px;
+    height: 245px;
+    font-size: 16px;
+    resize: none;
 }
 
 #profilepic {
