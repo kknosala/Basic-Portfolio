@@ -147,6 +147,16 @@ h1 {
     font-size: 14px;
 }
 
+.contactcontainer {
+    margin: 10px 15px 10px 15px;
+    overflow: hidden;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+}
+
 #profilepic {
     float: left;
     margin: 15px;
