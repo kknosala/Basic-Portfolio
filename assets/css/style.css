@@ -35,8 +35,6 @@ footer {
     box-sizing: border-box;
     border-top: 14px solid;
     border-color: teal;
-    color: #ffffff;
-    text-align: center;
 }
 
 h1 {
@@ -192,4 +190,12 @@ h1 {
 
 #submit:hover {
     background-color: #006666;
+}
+
+#footertext {
+    position: absolute;
+    bottom: 4px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
 }
