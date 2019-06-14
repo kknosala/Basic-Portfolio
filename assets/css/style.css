@@ -35,6 +35,8 @@ footer {
     box-sizing: border-box;
     border-top: 14px solid;
     border-color: teal;
+    color: #ffffff;
+    text-align: center;
 }
 
 h1 {
@@ -163,17 +165,31 @@ h1 {
 
 .inputmessage {
     box-sizing: content-box;
-    border-radius: 4px;
     border: 2px solid #888888;
     padding: 12px;
     width: 898px;
     height: 245px;
     font-size: 16px;
-    resize: none;
 }
 
 #profilepic {
     float: left;
     margin: 15px;
     overflow: auto;
+}
+
+#submit {
+    background-color: teal;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 105px;
+    height:42px;
+}
+
+#submit:hover {
+    background-color: #006666;
 }
