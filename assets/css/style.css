@@ -193,9 +193,10 @@ h1 {
 }
 
 #footertext {
-    position: absolute;
-    bottom: 4px;
-    color: #ffffff;
     text-align: center;
+    position: relative;
+    top: 40px;
+    color: #ffffff;
     font-size: 12px;
+    margin: auto;
 }
