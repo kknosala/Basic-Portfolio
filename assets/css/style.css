@@ -116,6 +116,16 @@ h1 {
     overflow: auto;
 }
 
+.link {
+    text-decoration: none;
+    color: #666666;
+    font-weight: 550;
+}
+
+.link:hover {
+    color: teal;
+}
+
 .portcontainer {
     width: 800px;
     margin: auto;
